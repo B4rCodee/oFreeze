@@ -1,0 +1,35 @@
+#        ______
+#       |  ____|
+#   ___ | |__ _ __ ___  ___ _______
+#  / _ \|  __| '__/ _ \/ _ \_  / _ \
+# | (_) | |  | | |  __/  __// /  __/
+#  \___/|_|  |_|  \___|\___/___\___|
+
+
+settings:
+  block-chat-messages-while-frozen: false
+  ban-player: true
+  ban-command: "ban {player} Left while frozen!"
+  send-messages-while-frozen: false
+
+
+messages:
+  break-block-message: "&cYou can't break blocks while you are frozen!"
+  place-block-message: "&cYou can't place blocks while you are frozen!"
+  cant-damage-frozen-message: "&c{player} is frozen!"
+  cant-damage-while-frozen-message: "&cYou can't damage others while you are frozen!"
+  chat-message-blocked: "&cYou can't send chat messages while you are frozen!"
+  froze-player: "&cYou have froze {player}"
+  unfroze-player: "&cYou have unfroze {player}"
+  usage-message: "&cUsage: /ss (player-name)"
+  left-while-frozen: "&c ! &4{player} $eleft while frozen!"
+  error-player-not-found: "&cPlayer not found!"
+  no-permission: "&cYou don't have permission to use this command!"
+  frozen-message:
+    - "&8---------------------"
+    - "&aYou're frozen"
+    - ""
+    - "&aYou can edit this message in the config.yml"
+    - "§ehttps://www.spigotmc.org/members/osanci.1243673"
+    - "&8---------------------"
+

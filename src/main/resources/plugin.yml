@@ -1,0 +1,10 @@
+name: oFreeze
+version: 1.0
+main: me.osanci.com.oFreeze
+author: Osanci
+
+commands:
+  freeze:
+    permission: oFreeze.freeze
+    description: xd
+    aliases: [ss, screenshare]
