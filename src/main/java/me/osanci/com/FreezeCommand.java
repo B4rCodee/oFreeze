@@ -11,7 +11,7 @@ public class FreezeCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String s, String[] args) {
         if (sender.hasPermission("oFreeze.freeze")) {
-            if (args.length == 0) {
+            if (args.length != 1) {
                 sender.sendMessage(ChatColor.translateAlternateColorCodes('&', oFreeze.getInstance().getConfig().getString("messages.usage")));//
                 return true;
             }
